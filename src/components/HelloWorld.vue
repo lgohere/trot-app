@@ -25,7 +25,7 @@
                   contain
                   height="19px"
                   width="19px"
-                  src="./public/assets/runner.png"
+                  src="./public/runner.png"
                 >
                 </v-img>
               </v-col>
@@ -34,7 +34,7 @@
               </v-col>
               <v-col cols="1" class="d-flex pt-1">
                 <v-img
-                  src="./public/assets/diamond.png"
+                  src="./public/diamond.png"
                   contain
                   height="9px"
                   width="9px"
@@ -83,7 +83,7 @@
                   contain
                   height="19px"
                   width="19px"
-                  src="./public/assets/runner.png"
+                  src="./public/runner.png"
                 >
                 </v-img>
               </v-col>
@@ -148,7 +148,7 @@ h2 {
 }
 
 .avatar {
-  background-image: url("./public/assets/small-profilepic.png");
+  background-image: url("./public/small-profilepic.png");
   background-size: cover;
   background-position: center;
 }
