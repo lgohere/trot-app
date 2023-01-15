@@ -25,7 +25,7 @@
                   contain
                   height="19px"
                   width="19px"
-                  src="./src/assets/runner.png"
+                  src="./public/assets/runner.png"
                 >
                 </v-img>
               </v-col>
@@ -34,7 +34,7 @@
               </v-col>
               <v-col cols="1" class="d-flex pt-1">
                 <v-img
-                  src="./src/assets/diamond.png"
+                  src="./public/assets/diamond.png"
                   contain
                   height="9px"
                   width="9px"
@@ -83,7 +83,7 @@
                   contain
                   height="19px"
                   width="19px"
-                  src="./src/assets/runner.png"
+                  src="./public/assets/runner.png"
                 >
                 </v-img>
               </v-col>
@@ -102,28 +102,28 @@
 export default {
   data: () => ({
     user: {
-      image: "./src/assets/small-profilepic.png",
+      image: "./public/asspublic/small-profilepic.png",
       nome: "Luiz Gouveia",
       corrida: "true",
     },
     infoHealth: {
       running: {
-        icon: "./src/assets/runner.png",
+        icon: "./public/asspublic/runner.png",
         title: "Passos",
         result: "2.500 passos",
-        percentuageOfGoal: "50%",
+        percentuageOfGopublic: "50%",
       },
       cycling: {
-        icon: "./src/assets/rider.png",
+        icon: "./public/asspublic/rider.png",
         title: "Pedaladas",
         result: "19.000 pedaladas",
-        percentuageOfGoal: "85%",
+        percentuageOfGoapublic: "85%",
       },
       water: {
         title: "Água",
         liters: "2 litros",
       },
-      calories: {
+      calorpublic: {
         title: "Calorias",
         pointer: "Under",
       },
@@ -148,7 +148,7 @@ h2 {
 }
 
 .avatar {
-  background-image: url("./src/assets/small-profilepic.png");
+  background-image: url("./public/assets/small-profilepic.png");
   background-size: cover;
   background-position: center;
 }
