@@ -133,7 +133,7 @@ h2 {
 }
 
 .avatar {
-  background-image: url("./public/small-profilepic.png");
+  background-image: url("./small-profilepic.png");
   background-size: cover;
   background-position: center;
 }
