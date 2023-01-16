@@ -47,14 +47,14 @@
       </v-container>
       <v-container>
         <v-row>
-          <v-col id="map" cols="7" class="ml-6"></v-col>
-          <v-col cols="4" class="mr-0 pr-0 d-flex flex-column">
+          <v-col id="map" cols="6" class="ml-6"></v-col>
+          <v-col cols="4" class="mr-0 pr-0 d-flex flex-column pt-1">
             <h3>10,05 km</h3>
             <h4>Distância</h4>
-            <v-spacer class="pb-3"></v-spacer>
+            <v-spacer class="pb-2"></v-spacer>
             <h3>45:10</h3>
             <h4>Duração</h4>
-            <v-spacer class="pb-3"></v-spacer>
+            <v-spacer class="pb-2"></v-spacer>
             <h3>6:45/km</h3>
             <h4>Média/Ritmo</h4>
           </v-col>
@@ -72,7 +72,7 @@
                 <v-img contain height="19px" width="19px" src="./runner.png">
                 </v-img>
               </v-col>
-              <v-col cols="8">
+              <v-col>
                 <h4 class="d-flex justify-start">Passos</h4>
               </v-col>
             </v-row>
@@ -133,7 +133,7 @@ h2 {
 }
 
 .avatar {
-  background-image: url("./small-profilepic.png");
+  background-image: url("./avatar.png");
   background-size: cover;
   background-position: center;
 }
