@@ -21,24 +21,14 @@
             <h3 class="mb-2">Luiz Gouveia</h3>
             <v-row id="ultimaCorrida" no-gutters>
               <v-col cols="1">
-                <v-img
-                  contain
-                  height="19px"
-                  width="19px"
-                  src="./public/runner.png"
-                >
+                <v-img contain height="19px" width="19px" src="./runner.png">
                 </v-img>
               </v-col>
               <v-col cols="4" class="d-flex justify-center">
                 <h5>Corrida</h5>
               </v-col>
               <v-col cols="1" class="d-flex pt-1">
-                <v-img
-                  src="./public/diamond.png"
-                  contain
-                  height="9px"
-                  width="9px"
-                >
+                <v-img src="./diamond.png" contain height="9px" width="9px">
                 </v-img>
               </v-col>
               <v-col cols="6" class="d-flex justify-center">
@@ -79,12 +69,7 @@
           >
             <v-row>
               <v-col cols="4" class="d-flex">
-                <v-img
-                  contain
-                  height="19px"
-                  width="19px"
-                  src="./public/runner.png"
-                >
+                <v-img contain height="19px" width="19px" src="./runner.png">
                 </v-img>
               </v-col>
               <v-col cols="8">
@@ -102,22 +87,22 @@
 export default {
   data: () => ({
     user: {
-      image: "./public/asspublic/small-profilepic.png",
+      image: "./small-profilepic.png",
       nome: "Luiz Gouveia",
       corrida: "true",
     },
     infoHealth: {
       running: {
-        icon: "./public/asspublic/runner.png",
+        icon: "./runner.png",
         title: "Passos",
         result: "2.500 passos",
-        percentuageOfGopublic: "50%",
+        percentuage: "50%",
       },
       cycling: {
-        icon: "./public/asspublic/rider.png",
+        icon: "./rider.png",
         title: "Pedaladas",
         result: "19.000 pedaladas",
-        percentuageOfGoapublic: "85%",
+        percentuage: "85%",
       },
       water: {
         title: "Água",
